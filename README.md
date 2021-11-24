@@ -3,7 +3,10 @@ A fail2ban filter for wings daemon, the service of pterodactyl panel, to secure 
 
 ## Installation
 
-Copy the code below to your jail configuration file.
+First you need to copy the file `pterodactyl-sftp.conf` to `/etc/fail2ban/filter.d/`
+
+And after copy the code below to your jail configuration file.
+For debian ex: `/etc/fail2ban/jail.d/defaults-debian.conf`
 
 ```bash
 [pterodactyl-sftp]
