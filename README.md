@@ -6,7 +6,9 @@ A fail2ban filter for wings daemon, the service of pterodactyl panel, to secure 
 First of all you need to have install the systemd python extension.
 ```bash
 apt install python-systemd
+```
 or
+```bash
 apt install python3-systemd
 ```
 
